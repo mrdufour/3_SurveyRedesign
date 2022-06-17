@@ -1,0 +1,4 @@
+﻿"basin","depth_class","strata","area_km2","total_area_km2","percent_area"
+"east central basin",">= 10","east central",7541,7541,100
+"west central basin",">= 20","west central offshore",3227,5117,63.064295485636116
+"west central basin","10-20","west central nearshore",1890,5117,36.935704514363884

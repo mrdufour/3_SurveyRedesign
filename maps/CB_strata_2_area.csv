@@ -1,0 +1,9 @@
+﻿"basin","depth_class","CNTRY_NAME","strata","area_km2","total_area_km2","percent_area"
+"east central basin",">= 20","Canada","NED",2521,7540,33.43501326259947
+"east central basin",">= 20","United States","SED",3122,7540,41.40583554376658
+"east central basin","10-20","Canada","NES",1177,7540,15.610079575596817
+"east central basin","10-20","United States","SES",720,7540,9.549071618037136
+"west central basin",">= 20","Canada","NWD",1584,5117,30.955638069181163
+"west central basin",">= 20","United States","SWD",1643,5117,32.10865741645495
+"west central basin","10-20","Canada","NWS",794,5117,15.516904436193082
+"west central basin","10-20","United States","SWS",1096,5117,21.418800078170804
