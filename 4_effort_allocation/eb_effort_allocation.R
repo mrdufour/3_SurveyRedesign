@@ -60,9 +60,12 @@ alloc <- left_join(mean_STRATUM_sd,eb_strata[,c(2,4)], by="STRATUM") %>% select(
 alloc$Ws <- alloc$NperHa*alloc$area_km2
 alloc$p  <- round(alloc$Ws/sum(alloc$Ws),3)
 alloc$eq <- round(alloc$area_km2/sum(alloc$area_km2),3)
-n_trans <- 48
+n_trans <- 38
 alloc$n_trans_p <- round(n_trans*alloc$p,0)
 alloc$n_trans_eq <- round(n_trans*alloc$eq,0)
 alloc %>% arrange(by_group = as.numeric(STRATUM)) -> alloc
 write.csv(alloc, "4_effort_allocation/eb_effort_allocation.csv")
+
+## add aglen coefficient...
+
 

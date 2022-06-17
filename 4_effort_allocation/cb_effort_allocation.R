@@ -66,3 +66,4 @@ alloc$n_trans_p <- round(n_trans*alloc$p,0)
 alloc$n_trans_eq <- round(n_trans*alloc$eq,0)
 write.csv(alloc, "4_effort_allocation/cb_effort_allocation.csv")
 
+## add aglen coefficient...
